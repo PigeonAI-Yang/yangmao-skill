@@ -1,18 +1,44 @@
-# 羊毛团公开资料 Skill
+[![羊毛团免费 AI 额度手册：咩酱递出一张免费券](assets/miejiang-free-ai-guide.webp)](https://ymtuan.live/free-ai)
 
-查免费 AI 额度、适用条件和官方规则。网站与 GitHub 使用同一份公开资料：网站是实时入口，GitHub 是方便阅读和安装的快照。
+# 免费 AI 额度，今天还有哪些能用？
 
-- **网站**：[中文资料索引](https://ymtuan.live/llms.txt) · [English index](https://ymtuan.live/en/llms.txt)。索引会列出已经开放的栏目。
-- **GitHub**：[中文快照](skills/yangmao-public/references/catalog-zh.md) · [English snapshot](skills/yangmao-public/references/catalog-en.md)。每条保留来源与核验日期；快照中的日期不等于今天仍可领取。额度没有明确证据时，标记为未核实。
+想给小工具接个模型，或者只是偶尔用 AI 处理文档？**先看看你已经能免费用多少，再决定要不要开会员。**
+
+**[去挑免费 AI →](https://ymtuan.live/free-ai)**　·　[在 GitHub 直接看清单](skills/yangmao-public/references/catalog-zh.md)　·　[装进我的 AI 助手](#安装与使用)　·　[English](#english)
+
+### 今天想省哪一笔？
+
+**每天都能用的。** [商汤小浣熊](https://ymtuan.live/free-ai#raccoon-daily)的个人免费版每天给 **300 积分**，不用签到，可以拿来处理文档。当天登录，那天的积分还能延长到 7 天使用。
+
+**写代码能用的。** [Cloudflare Workers AI](https://ymtuan.live/free-ai#workers-ai-daily)每天送 **10,000 Neurons**，北京时间早上 8 点刷新。想周末做个小应用，可以先挑免费计划支持的模型跑起来。
+
+**看上去很香、但得先花钱的。** [七牛的新人 300 万 Token](https://ymtuan.live/free-ai#qiniu-newuser-pack)要在首次调用产生费用后才发。如果你的预算就是零，这一条可以直接跳过。
+
+上面三条核于 2026 年 11 月 21 日。**[打开今日目录](https://ymtuan.live/free-ai)**，按「每日额度」「新人一次」「限时活动」挑；每项都能点回厂商原始规则。点右上角 **Star** 收藏，下次缺额度时从这里找。
+
+[![每日额度目录实拍：商汤小浣熊与 Cloudflare Workers AI 的额度、地区、使用入口和核验日期](assets/daily-directory-preview.png)](https://ymtuan.live/free-ai?cycle=daily)
 
 ## 安装与使用
 
-把 [`skills/yangmao-public/`](skills/yangmao-public/) 整个目录复制到 Agent 工具使用的 Skill 目录。安装目录名保持 `yangmao-public`，其中应直接包含 `SKILL.md` 和 `references/`。使用支持 Agent Skills 的工具，可按该工具的方式调用 `yangmao-public`。使用读取功能不需要 Python、站点账号或 API 密钥。
+如果你常用支持 Skills 的 AI 助手，把下面这句话复制给它：
 
-试问：“个人免费版每天有没有模型额度？按我所在地区说明条件，给官方规则和核验日期；拿不准的数字请标未核实。”
+```text
+请从 https://github.com/PigeonAI-Yang/yangmao-skill 安装 skills/yangmao-public 目录里的 yangmao-public。装好后帮我找：中国大陆能用、免费额度用完会停的模型 API，给我官方入口。
+```
 
-## 快照如何更新
+以后直接问：**「我是老用户，新人礼包都跳过。哪些编程额度每天会恢复？」** 助手会按你的条件查目录，带上来源和核验日期。不用交 API 密钥，也不用把账号给它。
 
-GitHub Actions 每天约北京时间 09:23 读取网站的两种公开语言版本，管理员也可以在 Actions 手动运行。它保留网站已发布的主题、文章链接、公开免费额度说明、适用条件和来源链接，不复制文章或供货商页面全文。两版都验证成功后才更新快照；内容有变化才提交。上游 403、限流或格式异常时保留上次快照。维护者可运行 `python scripts/refresh.py` 复现；具体调度以 GitHub 执行时间为准。
+喜欢手动安装？把 [yangmao-public 文件夹](skills/yangmao-public/)整个放进你的 Skills 目录即可。
 
-仓库中的 Skill 和同步代码以 [MIT](LICENSE) 提供。链接指向的网站内容和第三方规则仍由原权利人管理。
+### English
+
+[Browse free AI offers](https://ymtuan.live/en/free-ai) or [read the English list on GitHub](skills/yangmao-public/references/catalog-en.md). To install, ask your agent:
+
+```text
+Install the yangmao-public skill from skills/yangmao-public in https://github.com/PigeonAI-Yang/yangmao-skill. Find a free model API I can use in my region that stops when my allowance runs out.
+```
+
+<a href="https://ymtuan.live"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/brand/lockup-horizontal-dark.png">
+  <img src="assets/brand/lockup-horizontal.png" alt="羊毛团官网" width="124">
+</picture></a>
