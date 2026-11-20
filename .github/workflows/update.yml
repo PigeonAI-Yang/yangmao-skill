@@ -1,0 +1,32 @@
+name: Update public catalogs
+
+on:
+  schedule:
+    - cron: "23 1 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: public-catalog-update
+  cancel-in-progress: false
+
+jobs:
+  catalog:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - run: python3 scripts/refresh.py
+      - name: Commit changed catalogs
+        run: |
+          git add -- skills/yangmao-public/references/catalog-zh.md skills/yangmao-public/references/catalog-en.md
+          if git diff --cached --quiet; then
+            echo "Public catalogs are unchanged."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Update YangMao public catalogs"
+          git push origin "HEAD:refs/heads/$GITHUB_REF_NAME"
