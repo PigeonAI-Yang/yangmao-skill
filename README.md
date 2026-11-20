@@ -1,4 +1,4 @@
-[![羊毛团免费 AI 额度手册：咩酱递出一张免费券](assets/miejiang-free-ai-guide.webp)](https://ymtuan.live/free-ai)
+[![羊毛团免费 AI 额度手册：咩酱递出一张免费券](assets/miejiang-free-ai-guide-v2.webp)](https://ymtuan.live/free-ai)
 
 # 免费 AI 额度，今天还有哪些能用？
 
