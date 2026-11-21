@@ -112,8 +112,6 @@ class Directory(HTMLParser):
     def __init__(self):
         super().__init__()
         self.canonical, self.language = "", ""
-        self.grid = False
-        self.seen_grid = False
         self.card, self.capture = None, None
         self.body = []
         self.cards = []
@@ -124,35 +122,39 @@ class Directory(HTMLParser):
             self.language = attrs.get("lang", "")
         if tag == "link" and attrs.get("rel") == "canonical":
             self.canonical = attrs.get("href", "")
-        if tag == "ul" and "ym-toolgrid" in attrs.get("class", "").split():
-            if self.seen_grid:
-                raise ValueError("Unexpected second offer grid")
-            self.grid = self.seen_grid = True
-        if self.grid and tag == "li" and "ym-card" in attrs.get("class", "").split():
+        classes = attrs.get("class", "").split()
+        if tag == "article" and "ym-free" in classes:
             slug = attrs.get("id", "")
             if self.card is not None or not IDENTIFIER.fullmatch(slug):
-                raise ValueError("Offer card has an invalid or nested identifier")
-            self.card = {"slug": slug, "fields": [], "anchors": []}
-        if self.card is not None and tag in ("h2", "p", "small"):
-            self.capture = (tag, [])
-        if self.card is not None and tag == "a":
-            self.card["anchors"].append([attrs.get("href", ""), ""])
+                raise ValueError("Invalid offer identifier")
+            self.card = {"slug": slug, "facts": []}
+        if self.card is None:
+            return
+        for field, style in (("title", "ym-free__name"), ("terms", "ym-free__terms"), ("checked", "ym-free__checked")):
+            if style in classes:
+                self.capture = (tag, field, [])
+        if tag == "dd":
+            self.capture = (tag, "fact", [])
+        if tag == "a" and "ym-free__go" not in classes:
+            self.card["source"] = checked_url(attrs.get("href", ""))
 
     def handle_data(self, text):
-        if self.card is not None and self.capture:
-            tag, parts = self.capture
-            parts.append(text)
+        if self.capture:
+            self.capture[2].append(text)
         self.body.append(text)
 
     def handle_endtag(self, tag):
-        if self.card is not None and self.capture and self.capture[0] == tag:
-            self.card["fields"].append((tag, " ".join("".join(self.capture[1]).split())))
+        if self.capture and self.capture[0] == tag:
+            _, field, parts = self.capture
+            value = " ".join("".join(parts).split())
+            if field == "fact":
+                self.card["facts"].append(value)
+            else:
+                self.card[field] = value
             self.capture = None
-        if self.card is not None and tag == "li":
+        if tag == "article" and self.card is not None:
             self.cards.append(self.card)
-            self.card = self.capture = None
-        if self.grid and tag == "ul":
-            self.grid = False
+            self.card = None
 
 
 def parse_directory(doc, lang):
@@ -161,25 +163,21 @@ def parse_directory(doc, lang):
     parser.feed(doc)
     parser.close()
     if parser.canonical != SITE + prefix + "/free-ai" or not parser.language.lower().startswith(lang):
-        raise ValueError(f"{lang}: free AI directory page or language changed")
+        raise ValueError(f"{lang}: wrong offer directory")
     empty = ("这个分类暂时没有核验有效的条目。" if lang == "zh"
              else "No currently verified offers in this category.")
     if not parser.cards and empty not in " ".join(parser.body):
-        raise ValueError(f"{lang}: expected public offer cards or the upstream empty state")
+        raise ValueError(f"{lang}: no offers or known empty state")
     offers, seen = [], set()
-    labels = ("官方规则", "核验 ") if lang == "zh" else ("Official terms", "Checked ")
+    label = "核验 " if lang == "zh" else "Checked "
     for card in parser.cards:
-        fields = card["fields"]
-        if ([tag for tag, _ in fields] != ["h2", "p", "p", "p", "small"] or len(card["anchors"]) != 2
-                or card["slug"] in seen):
-            raise ValueError(f"{lang}: offer card format changed")
-        name, terms, eligibility, links, verified = [value for _, value in fields]
-        if (not name or not terms or not eligibility or len(terms) > 1000 or len(eligibility) > 1000
-                or not links.endswith(labels[0]) or not verified.startswith(labels[1])):
-            raise ValueError(f"{lang}: offer card missing verified public terms")
+        if (card["slug"] in seen or len(card["facts"]) != 2 or
+                not all(card.get(k) for k in ("title", "terms", "source", "checked")) or
+                not card["checked"].startswith(label)):
+            raise ValueError(f"{lang}: incomplete or duplicate offer {card['slug']}")
         seen.add(card["slug"])
-        source = checked_url(card["anchors"][1][0])
-        offers.append((card["slug"], name, terms, eligibility, source, checked_date(verified[len(labels[1]):])))
+        offers.append((card["slug"], card["title"], card["terms"], " · ".join(card["facts"]),
+                       card["source"], checked_date(card["checked"][len(label):])))
     return offers
 
 

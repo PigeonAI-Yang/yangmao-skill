@@ -44,8 +44,8 @@
 - [魔搭 · 每日魔粒](https://ymtuan.live/free-ai#modelscope-daily-moli) — 每日登录领 200 魔粒，使用需完善个人信息（含邮箱验证）；绑阿里云账号每日另加 50。每模型可调用次数与清零规则以平台为准。
   魔搭注册用户；绑阿里云账号有加成 · 登录领每日魔粒，绑阿里云账号再看总额，先小模型试一次看实际扣多少。 · [官方规则](https://modelscope.cn/magicube/usage?tab=earn) · 核验: 2026-11-21
 
-- [腾讯云 TokenHub · 新人 100 万 tokens](https://ymtuan.live/free-ai#tencent-tokenhub-newuser) — 新用户按模型勾选各领 100 万 tokens 体验包（非共享余额），覆盖 Hy4 flash、Kimi、MiniMax、DeepSeek-V4.1、GLM-5.3 等；本期至 12-31，领取有效期和活动截止分写。
-  腾讯云 TokenHub 新用户 · 在活动页逐模型勾选领体验包；各模型额度分开，不是共用 100 万。 · [官方规则](https://cloud.tencent.com/document/product/1823/130053) · 核验: 2026-11-21
+- [腾讯云 TokenHub · 新人 100 万 tokens](https://ymtuan.live/free-ai#tencent-tokenhub-newuser) — 新用户免费体验额度在主账号维度共享：语言/多模态理解模型各 100 万 tokens、视频生成 50 积分、混元生 3D 各模型 100 积分，覆盖 Hy4 flash、Kimi、MiniMax、DeepSeek-V4.1、GLM-5.3 等；每账号每模型仅领一次；本期至 12-31，领取有效期和活动截止分写。
+  腾讯云 TokenHub 新用户 · 在控制台/模型广场开通领取；额度主账号共享，语言模型共 100 万 tokens，不是每款模型各 100 万。 · [官方规则](https://cloud.tencent.com/document/product/1823/130053) · 核验: 2026-11-21
 
 - [讯飞星火 Spark Lite](https://ymtuan.live/free-ai#xfyun-spark-lite) — Spark Lite 为免费档，Pro/Max/Ultra 收费；建应用拿 APIKey 即可调，并发与配额以应用页为准。
   注册讯飞开放平台并实名创建应用 · 控制台建应用拿 APIKey 调 Lite；别误调 Pro/Max/Ultra 会计费。 · [官方规则](https://www.xfyun.cn/doc/spark/HTTP调用文档) · 核验: 2026-11-21
