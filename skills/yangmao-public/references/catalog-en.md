@@ -9,7 +9,7 @@
 - [Open the directory on the website](https://ymtuan.live/en/free-ai)
 
 - [SenseTime Raccoon](https://ymtuan.live/en/free-ai#raccoon-daily) — The personal free plan grants 300 credits a day for standard models only; credits are issued automatically at 00:00 with no check-in needed, expire the same day by default, and extend to 7 days if you log in that day.
-  Personal free plan on the China site · Pick the free plan on the site; credits only cover standard models, not paid tiers. · [Official terms](https://www.xiaohuanxiong.com/pricing) · Verified: 2026-11-21
+  [YangMao step-by-step guide](https://ymtuan.live/en/blog/raccoon-daily) · Personal free plan on the China site · Pick the free plan on the site; credits only cover standard models, not paid tiers. · [Official terms](https://www.xiaohuanxiong.com/pricing) · Verified: 2026-11-21
 
 - [Alibaba Cloud Model Studio · new-user quota](https://ymtuan.live/en/free-ai#bailian-new-user) — After real-name verification and first activation, free quotas are issued per model, usually valid 90 days — this is not one shared pool. Exhausted quotas default to pay-as-you-go; you can preset stop-on-exhaustion in the console.
   Real-name, first-time activations in the Beijing region · In the console check each model's balance under Free Quota, enable stop-on-exhaustion, then send a test request. · [Official terms](https://help.aliyun.com/zh/model-studio/new-free-quota/) · Verified: 2026-11-21
@@ -36,10 +36,10 @@
   Verified students at Chinese higher education institutions · Verify student status, claim the voucher, and check the real deduction at checkout. · [Official terms](https://university.aliyun.com/action) · Verified: 2026-11-21
 
 - [Qiniu Conatus free model](https://ymtuan.live/en/free-ai#qiniu-conatus-daily) — Model ID qiniu/conatus-free. Verified accounts share 100M tokens/day across all API keys, resetting 00:00 Beijing; requests are refused when out, with no balance deducted. Ends Nov 30.
-  Logged-in, real-name Qiniu accounts in good standing · Confirm Conatus on the campaign page and send a short request; keys on one account share the quota. · [Official terms](https://www.qiniu.com/ai/free-models/conatus-2026) · Verified: 2026-11-21
+  [YangMao step-by-step guide](https://ymtuan.live/en/blog/qiniu-conatus-daily) · Logged-in, real-name Qiniu accounts in good standing · Confirm Conatus on the campaign page and send a short request; keys on one account share the quota. · [Official terms](https://www.qiniu.com/ai/free-models/conatus-2026) · Verified: 2026-11-21
 
 - [Coze · 60 points per daily login](https://ymtuan.live/en/free-ai#coze-daily-login) — Individual free-plan users get 60 points per daily login, once per account per day, each grant valid 1 day from issue; the first-registration reward is separate.
-  Eligible individual-plan users · Log in for the day's 60 points; each is valid 1 day. The signup reward is separate. · [Official terms](https://docs.coze.cn/guides_coze_points_activity_rules) · Verified: 2026-11-21
+  [YangMao step-by-step guide](https://ymtuan.live/en/blog/coze-daily-login) · Eligible individual-plan users · Log in for the day's 60 points; each is valid 1 day. The signup reward is separate. · [Official terms](https://docs.coze.cn/guides_coze_points_activity_rules) · Verified: 2026-11-21
 
 - [ModelScope · daily Moli credits](https://ymtuan.live/en/free-ai#modelscope-daily-moli) — 200 Moli per daily login (complete profile incl. email verification to use); +50 more for linked Alibaba Cloud. Per-model call counts and reset rules follow the platform.
   Registered ModelScope users; bonus for linked Alibaba Cloud · Claim daily Moli, link Alibaba Cloud for the bonus, then try a small model to see actual cost. · [Official terms](https://modelscope.cn/magicube/usage?tab=earn) · Verified: 2026-11-21
@@ -132,7 +132,7 @@
   All Baidu Dumate users (free and paid plans) · Check in inside the Dumate client for 500; gifted points expire, so use them in time. · [Official terms](https://aca.bce.baidu.com/doc/Dumate/s/nmnevrk0l) · Verified: 2026-11-21
 
 - [TRAE · free-tier daily check-in 100 pts](https://ymtuan.live/en/free-ai#trae-free-checkin) — Free-tier users get 100 points per daily check-in (each valid 31 days); members get 200/day — the two tracks are separate.
-  TRAE China free users · Check in inside the TRAE client for the daily 100; the free 100 and member 200 are separate tracks. · [Official terms](https://docs.trae.cn/ide_plans-and-billing) · Verified: 2026-11-21
+  [YangMao step-by-step guide](https://ymtuan.live/en/blog/trae-free-checkin) · TRAE China free users · Check in inside the TRAE client for the daily 100; the free 100 and member 200 are separate tracks. · [Official terms](https://docs.trae.cn/ide_plans-and-billing) · Verified: 2026-11-21
 
 - [WorkBuddy · Hy4 flash free (limited)](https://ymtuan.live/en/free-ai#workbuddy-hy4-flash) — Tencent’s official release confirms Hy4 flash is free through 2026-11-30; TokenHub is 50% off over the same period — do not conflate. Free until the stated date, not permanently.
   WorkBuddy users · Use Hy4 flash inside WorkBuddy — free through Nov 30, 2026 (inclusive). · [Official terms](https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/) · Verified: 2026-11-21
@@ -160,6 +160,8 @@
 
 ### AI Coding Saving
 
+- [Published article: minimax-code-checkin](https://ymtuan.live/en/blog/minimax-code-checkin) · Source: [MiniMax Code M Plan & Credits](https://code.minimax.cn/docs/code/account/usage) · Verified: 2026-11-21
+- [Published article: trae-free-checkin](https://ymtuan.live/en/blog/trae-free-checkin) · Source: [TRAE pricing page](https://www.trae.cn/pricing) · Verified: 2026-11-21
 - [GitHub Copilot vs Claude Code: assistant or agent, which to pick](https://ymtuan.live/en/blog/copilot-vs-claude-code) · Source: [Yangmao · Copilot vs Cursor compared](https://ymtuan.live/blog/copilot-vs-cursor) · Verified: 2026-11-20
 - [Copilot vs Cursor: how to compare monthly fees, credits and extra model costs](https://ymtuan.live/en/blog/copilot-vs-cursor) · Source: [GitHub Copilot docs](https://docs.github.com/en/copilot/get-started/plans) · Verified: 2026-11-20
 - [Is the Cursor student discount still there? What the official page promises now](https://ymtuan.live/en/blog/cursor-student) · Source: [Cursor students page](https://cursor.com/students) · Verified: 2026-11-20
@@ -172,7 +174,7 @@
 - [T3 Code: one workspace for multiple AI coding assistants](https://ymtuan.live/en/blog/t3-code) · Source: [T3 Code official overview](https://t3.codes/zh) · Verified: 2026-11-19
 - [Free GitHub Copilot for students: how to apply](https://ymtuan.live/en/blog/copilot-student-free) · Source: [Copilot Student activation](https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students) · Verified: 2026-11-17
 - [GitHub Copilot pricing: Pro, Pro+, Max — what the credits actually buy](https://ymtuan.live/en/blog/copilot-price) · Source: [GitHub Copilot plans](https://docs.github.com/en/copilot/get-started/plans) · Verified: 2026-11-17
-- [Free AI coding: Copilot, student plans, and Ollama](https://ymtuan.live/en/blog/free-coding-ai) · Source: [GitHub Copilot plans](https://docs.github.com/en/copilot/get-started/plans) · Verified: 2026-11-16
+- [Free AI coding: Copilot Free, student access, or local models — which to pick](https://ymtuan.live/en/blog/free-coding-ai) · Source: [GitHub Copilot plans & billing docs](https://docs.github.com/en/copilot/get-started/plans) · Verified: 2026-11-16
 
 ### Saving Tools
 
@@ -187,6 +189,11 @@
 
 ### Other verified references
 
+- [Published article: qiniu-conatus-daily](https://ymtuan.live/en/blog/qiniu-conatus-daily) · Source: [Qiniu Conatus campaign page](https://www.qiniu.com/ai/free-models/conatus-2026) · Verified: 2026-11-21
+- [Published article: coze-daily-login](https://ymtuan.live/en/blog/coze-daily-login) · Source: [Coze points activity rules](https://docs.coze.cn/guides_coze_points_activity_rules) · Verified: 2026-11-21
+- [Published article: raccoon-daily](https://ymtuan.live/en/blog/raccoon-daily) · Source: [SenseTime Raccoon pricing page](https://xiaohuanxiong.com/pricing) · Verified: 2026-11-21
+- [Free AI credits for coding and APIs: newcomer bundles you get just for signing up](https://ymtuan.live/en/blog/free-ai-newuser-credits) · Source: [Official pages (see body)](https://www.alibabacloud.com/product/bailian) · Verified: 2026-11-21
+- [Free AI credits you can claim today: 7 officially confirmed entries](https://ymtuan.live/en/blog/free-ai-quota-daily) · Source: [Official pages (see body)](https://cloud.tencent.com/product/tokenhub) · Verified: 2026-11-21
 - [What self-hosting an API gateway costs per year: vs buying a relay](https://ymtuan.live/en/blog/selfhost-gateway-cost) · Source: [Yangmao · Self-host an API gateway with One API or New API](https://ymtuan.live/blog/one-api-gateway) · Verified: 2026-11-20
 - [Free ChatGPT alternatives: try the Claude free tier first, or run a local model?](https://ymtuan.live/en/blog/free-chatgpt-alternatives) · Source: [Claude official pricing](https://claude.com/pricing) · Verified: 2026-11-20
 - [LiteLLM for managing multiple APIs: what it saves and what deployment costs](https://ymtuan.live/en/blog/litellm-api-management) · Source: [LiteLLM docs](https://docs.litellm.ai/docs/simple_proxy) · Verified: 2026-11-20

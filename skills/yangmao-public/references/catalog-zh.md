@@ -9,7 +9,7 @@
 - [查看网站上的此栏目](https://ymtuan.live/free-ai)
 
 - [商汤小浣熊](https://ymtuan.live/free-ai#raccoon-daily) — 个人免费版每天 300 积分，限标准模型；每日 0 点自动发放、无需签到，默认当天到期，当天登录该笔可延至 7 天。
-  中国站个人免费版 · 打开官网选免费版直接用；积分限标准模型，别拿去跑付费档模型。 · [官方规则](https://www.xiaohuanxiong.com/pricing) · 核验: 2026-11-21
+  [羊毛团操作教程](https://ymtuan.live/blog/raccoon-daily) · 中国站个人免费版 · 打开官网选免费版直接用；积分限标准模型，别拿去跑付费档模型。 · [官方规则](https://www.xiaohuanxiong.com/pricing) · 核验: 2026-11-21
 
 - [阿里云百炼 · 新人模型额度](https://ymtuan.live/free-ai#bailian-new-user) — 实名认证并首次开通后按模型发放免费额度，通常 90 天；不是一笔通用额度，各模型额度分开。耗尽默认转按量，可在控制台预设「用完即停」。
   华北 2（北京），实名认证且首次开通的新用户 · 进控制台「免费额度」逐模型看余量，开启「用完即停」再发测试请求。 · [官方规则](https://help.aliyun.com/zh/model-studio/new-free-quota/) · 核验: 2026-11-21
@@ -36,10 +36,10 @@
   通过阿里云学生认证的中国高校在校生 · 完成学生认证后领券，结算页看实际抵扣额再下单。 · [官方规则](https://university.aliyun.com/action) · 核验: 2026-11-21
 
 - [七牛 Conatus 免费模型](https://ymtuan.live/free-ai#qiniu-conatus-daily) — 本期模型标识 qiniu/conatus-free。认证账号每日共享 1 亿 Token（同账号各 Key 共用），北京时间 0 点重置，额度不足直接拒绝不扣余额；活动至 11-30。
-  登录、实名且未受风控的七牛账号 · 活动页确认 Conatus 可用后发短请求；同账号多把 key 共用额度。 · [官方规则](https://www.qiniu.com/ai/free-models/conatus-2026) · 核验: 2026-11-21
+  [羊毛团操作教程](https://ymtuan.live/blog/qiniu-conatus-daily) · 登录、实名且未受风控的七牛账号 · 活动页确认 Conatus 可用后发短请求；同账号多把 key 共用额度。 · [官方规则](https://www.qiniu.com/ai/free-models/conatus-2026) · 核验: 2026-11-21
 
 - [扣子 · 每日登录 60 分](https://ymtuan.live/free-ai#coze-daily-login) — 个人免费版每日登录得 60 分，每账号每日一次，每笔自发放起 1 天有效；首次注册奖励另算。
-  符合资格的个人版用户 · 登录领当日 60 分，积分 1 天有效按需当天用；首注奖励另算。 · [官方规则](https://docs.coze.cn/guides_coze_points_activity_rules) · 核验: 2026-11-21
+  [羊毛团操作教程](https://ymtuan.live/blog/coze-daily-login) · 符合资格的个人版用户 · 登录领当日 60 分，积分 1 天有效按需当天用；首注奖励另算。 · [官方规则](https://docs.coze.cn/guides_coze_points_activity_rules) · 核验: 2026-11-21
 
 - [魔搭 · 每日魔粒](https://ymtuan.live/free-ai#modelscope-daily-moli) — 每日登录领 200 魔粒，使用需完善个人信息（含邮箱验证）；绑阿里云账号每日另加 50。每模型可调用次数与清零规则以平台为准。
   魔搭注册用户；绑阿里云账号有加成 · 登录领每日魔粒，绑阿里云账号再看总额，先小模型试一次看实际扣多少。 · [官方规则](https://modelscope.cn/magicube/usage?tab=earn) · 核验: 2026-11-21
@@ -132,7 +132,7 @@
   百度搭子全部用户（免费版及付费订阅版） · 在百度搭子客户端内签到领 500；赠送积分到期清零，按需使用。 · [官方规则](https://aca.bce.baidu.com/doc/Dumate/s/nmnevrk0l) · 核验: 2026-11-21
 
 - [TRAE · 免费用户每日签到 100 分](https://ymtuan.live/free-ai#trae-free-checkin) — 免费用户每日签到领 100 积分（每笔 31 个自然日有效）；会员每日签到 200，两套分开算。
-  TRAE 国内版免费用户 · 在 TRAE 客户端签到领每日 100 分；免费 100 与会员 200 是两套。 · [官方规则](https://docs.trae.cn/ide_plans-and-billing) · 核验: 2026-11-21
+  [羊毛团操作教程](https://ymtuan.live/blog/trae-free-checkin) · TRAE 国内版免费用户 · 在 TRAE 客户端签到领每日 100 分；免费 100 与会员 200 是两套。 · [官方规则](https://docs.trae.cn/ide_plans-and-billing) · 核验: 2026-11-21
 
 - [WorkBuddy · Hy4 flash 限免](https://ymtuan.live/free-ai#workbuddy-hy4-flash) — 腾讯官方发布稿明确 Hy4 flash 可免费使用至 2026-11-30；同期 TokenHub 为五折，两者不混。限免到期前可用，非长期免费。
   WorkBuddy 用户 · 在 WorkBuddy 内用 Hy4 flash，限免至 2026-11-30（含）。 · [官方规则](https://www.tencent.com/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/) · 核验: 2026-11-21
@@ -160,6 +160,8 @@
 
 ### AI 编程省钱
 
+- [MiniMax Code 每日签到领积分：一天 400，连签一周最多 4000](https://ymtuan.live/blog/minimax-code-checkin) · 来源: [MiniMax Code M Plan 与积分](https://code.minimax.cn/docs/code/account/usage) · 核验: 2026-11-21
+- [TRAE 免费版怎么攒积分：每日签到 100 + 每月赠 500，不花一分钱写代码](https://ymtuan.live/blog/trae-free-checkin) · 来源: [TRAE 定价页](https://www.trae.cn/pricing) · 核验: 2026-11-21
 - [GitHub Copilot vs Claude Code：订阅助手还是按量 agent，怎么选](https://ymtuan.live/blog/copilot-vs-claude-code) · 来源: [羊毛团·Copilot vs Cursor 对比](https://ymtuan.live/blog/copilot-vs-cursor) · 核验: 2026-11-20
 - [Copilot vs Cursor：月费、额度和额外模型费用怎么比](https://ymtuan.live/blog/copilot-vs-cursor) · 来源: [GitHub Copilot plans](https://docs.github.com/en/copilot/get-started/plans) · 核验: 2026-11-20
 - [Cursor 学生优惠还有吗？官方页现在承诺什么，领取前查什么](https://ymtuan.live/blog/cursor-student) · 来源: [Cursor 学生页面](https://cursor.com/students) · 核验: 2026-11-20
@@ -187,6 +189,11 @@
 
 ### 其他已核验资料
 
+- [七牛 Conatus 每天送 1 亿 token：实名认证就能用，怎么接](https://ymtuan.live/blog/qiniu-conatus-daily) · 来源: [七牛 Conatus 活动页](https://www.qiniu.com/ai/free-models/conatus-2026) · 核验: 2026-11-21
+- [扣子（Coze）每日登录领 60 积分：零成本做 AI 应用](https://ymtuan.live/blog/coze-daily-login) · 来源: [扣子积分活动规则](https://docs.coze.cn/guides_coze_points_activity_rules) · 核验: 2026-11-21
+- [商汤小浣熊每天 300 积分怎么用：0 点自动发，登录可延 7 天](https://ymtuan.live/blog/raccoon-daily) · 来源: [商汤小浣熊定价页](https://xiaohuanxiong.com/pricing) · 核验: 2026-11-21
+- [已发布原文: free-ai-newuser-credits](https://ymtuan.live/blog/free-ai-newuser-credits) · 来源: [各官方页面（见正文）](https://www.alibabacloud.com/product/bailian) · 核验: 2026-11-21
+- [今日能白嫖的免费 AI 额度：7 个官方确认的入口](https://ymtuan.live/blog/free-ai-quota-daily) · 来源: [各官方页面（见正文）](https://cloud.tencent.com/product/tokenhub) · 核验: 2026-11-21
 - [自建 API 网关一年花多少钱：自建和买中转哪个划算](https://ymtuan.live/blog/selfhost-gateway-cost) · 来源: [羊毛团·One API/New API 自建网关](https://ymtuan.live/blog/one-api-gateway) · 核验: 2026-11-20
 - [免费 ChatGPT 替代：先试 Claude 免费档，还是先装本地模型？](https://ymtuan.live/blog/free-chatgpt-alternatives) · 来源: [Claude 官方定价](https://claude.com/pricing) · 核验: 2026-11-20
 - [LiteLLM 统一管理多个 API：能省什么，部署成本怎么算](https://ymtuan.live/blog/litellm-api-management) · 来源: [LiteLLM 网关文档](https://docs.litellm.ai/docs/simple_proxy) · 核验: 2026-11-20
