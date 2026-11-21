@@ -197,10 +197,14 @@ def render_catalog(groups, offers, lang):
         lines.extend([f"- [{directory_label}]({SITE}{prefix}/free-ai)", ""])
         if not offers:
             lines.extend(["目前没有已核验条目。" if zh else "No verified offers are currently listed.", ""])
+        published = {url for references in groups.values() for _, url, *_ in references}
         for slug, name, terms, region, source, day in offers:
             rules = "官方规则" if zh else "Official terms"
+            guide_url = f"{SITE}{prefix}/blog/{slug}"
+            guide_label = "羊毛团操作教程" if zh else "YangMao step-by-step guide"
+            guide = f"[{guide_label}]({guide_url}) · " if guide_url in published else ""
             lines.extend([f"- [{markdown(name)}]({SITE}{prefix}/free-ai#{slug}) — {markdown(terms)}",
-                          f"  {markdown(region)} · [{rules}]({source}) · {check_word}: {day}", ""])
+                          f"  {guide}{markdown(region)} · [{rules}]({source}) · {check_word}: {day}", ""])
     lines.extend(["## 公开文章链接" if zh else "## Published article links", ""])
     for group, references in groups.items():
         lines.extend([f"### {group}", ""])
