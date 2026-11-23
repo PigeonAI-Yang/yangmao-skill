@@ -1,7 +1,7 @@
 # YangMao public catalog snapshot
 
 > This is a snapshot of the public site. Treat unspecified quotas or current terms as unverified.
-> Latest verification date (see individual entries): 2026-11-22
+> Latest verification date (see individual entries): 2026-11-23
 > [Public source index](https://ymtuan.live/en/llms.txt)
 
 ## Free AI directory
@@ -40,9 +40,6 @@
 
 - [Alibaba Cloud · CNY 300 student voucher](https://ymtuan.live/en/free-ai#aliyun-student-voucher) — One CNY 300 voucher per person per 12 months, for designated public-cloud specs only; pay whatever it does not cover.
   Verified students at Chinese higher education institutions · Verify student status, claim the voucher, and check the real deduction at checkout. · [Official terms](https://university.aliyun.com/action) · Verified: 2026-11-21
-
-- [Qiniu Conatus free model](https://ymtuan.live/en/free-ai#qiniu-conatus-daily) — Model ID qiniu/conatus-free. Verified accounts share 100M tokens/day across all API keys, resetting 00:00 Beijing; requests are refused when out, with no balance deducted. Ends Nov 30.
-  [YangMao step-by-step guide](https://ymtuan.live/en/blog/qiniu-conatus-daily) · Logged-in, real-name Qiniu accounts in good standing · Confirm Conatus on the campaign page and send a short request; keys on one account share the quota. · [Official terms](https://www.qiniu.com/ai/free-models/conatus-2026) · Verified: 2026-11-21
 
 - [Coze · 60 points per daily login](https://ymtuan.live/en/free-ai#coze-daily-login) — Individual free-plan users get 60 points per daily login, once per account per day, each grant valid 1 day from issue; the first-registration reward is separate.
   [YangMao step-by-step guide](https://ymtuan.live/en/blog/coze-daily-login) · Eligible individual-plan users · Log in for the day's 60 points; each is valid 1 day. The signup reward is separate. · [Official terms](https://docs.coze.cn/guides_coze_points_activity_rules) · Verified: 2026-11-21
@@ -225,8 +222,9 @@
 
 ### Other verified references
 
+- [Coursera Course Students Get 3 Months of Google One: How to Redeem the Google AI Pro Trial](https://ymtuan.live/en/blog/google-ai-trial-coursera) · Source: [Google One official terms + Coursera course page](https://one.google.com/offer/terms-and-conditions/google-career-certificates-2026) · Verified: 2026-11-23
 - [Published article: workbuddy-free-credits](https://ymtuan.live/en/blog/workbuddy-free-credits) · Source: [Tencent WorkBuddy](https://www.codebuddy.cn/events/invite/) · Verified: 2026-11-21
-- [Black Friday 2026 AI deals roundup: what you can join and what still needs conditions](https://ymtuan.live/en/blog/black-friday-ai-deals) · Source: [Each official Black Friday promo page (verified 2026-11-22)](https://open-design.ai/prototypes-black-friday?locale=en&amp;amp;amp;amp;amp;amp;bf=1) · Verified: 2026-11-22
+- [2026 Black Friday AI deals: the ones you can join and the ones that check out](https://ymtuan.live/en/blog/black-friday-ai-deals) · Source: [Official Black Friday promo pages (verified 2026-11-23)](https://open-design.ai/prototypes-black-friday?locale=en&amp;amp;amp;amp;amp;amp;amp;amp;amp;bf=1) · Verified: 2026-11-23
 - [Tencent Cloud TokenHub new-user trial credit](https://ymtuan.live/en/blog/tencent-tokenhub-newuser) · Source: [Tencent Cloud TokenHub](https://cloud.tencent.com/document/product/1823/130053) · Verified: 2026-11-21
 - [Unisound U Plan free tier: weekly credits](https://ymtuan.live/en/blog/unisound-uplan-free) · Source: [Unisound U Plan](https://maas.unisound.com/token-plan?channel=101&amp;amp;amp;source=1002) · Verified: 2026-11-21
 - [MonkeyCode: new-user credit pack](https://ymtuan.live/en/blog/monkeycode-newuser) · Source: [MonkeyCode official](https://github.com/chaitin/MonkeyCode/blob/main/frontend/doc.md) · Verified: 2026-11-21

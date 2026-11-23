@@ -1,7 +1,7 @@
 # 羊毛团公开资料快照
 
 > 这是网站公开资料的快照。没有明确额度或当前条件时，记为未核实。
-> 最新核验日期（单项见下文）: 2026-11-22
+> 最新核验日期（单项见下文）: 2026-11-23
 > [原始公开索引](https://ymtuan.live/llms.txt)
 
 ## 免费 AI 目录
@@ -40,9 +40,6 @@
 
 - [云工开物 · 学生 300 元云资源券](https://ymtuan.live/free-ai#aliyun-student-voucher) — 每人每 12 个月可领一张 300 元券，仅抵扣活动指定的公共云规格，超出部分付费。
   通过阿里云学生认证的中国高校在校生 · 完成学生认证后领券，结算页看实际抵扣额再下单。 · [官方规则](https://university.aliyun.com/action) · 核验: 2026-11-21
-
-- [七牛 Conatus 免费模型](https://ymtuan.live/free-ai#qiniu-conatus-daily) — 本期模型标识 qiniu/conatus-free。认证账号每日共享 1 亿 Token（同账号各 Key 共用），北京时间 0 点重置，额度不足直接拒绝不扣余额；活动至 11-30。
-  [羊毛团操作教程](https://ymtuan.live/blog/qiniu-conatus-daily) · 登录、实名且未受风控的七牛账号 · 活动页确认 Conatus 可用后发短请求；同账号多把 key 共用额度。 · [官方规则](https://www.qiniu.com/ai/free-models/conatus-2026) · 核验: 2026-11-21
 
 - [扣子 · 每日登录 60 分](https://ymtuan.live/free-ai#coze-daily-login) — 个人免费版每日登录得 60 分，每账号每日一次，每笔自发放起 1 天有效；首次注册奖励另算。
   [羊毛团操作教程](https://ymtuan.live/blog/coze-daily-login) · 符合资格的个人版用户 · 登录领当日 60 分，积分 1 天有效按需当天用；首注奖励另算。 · [官方规则](https://docs.coze.cn/guides_coze_points_activity_rules) · 核验: 2026-11-21
@@ -227,8 +224,9 @@
 
 ### 其他已核验资料
 
+- [Coursera 报课领 3 个月 Google One 会员：Google AI Pro 领取教程](https://ymtuan.live/blog/google-ai-trial-coursera) · 来源: [Google One 官方条款 + Coursera 课程页](https://one.google.com/offer/terms-and-conditions/google-career-certificates-2026) · 核验: 2026-11-23
 - [WorkBuddy 免费积分怎么拿：受邀新用户 2000 + 体验版每月 500，零成本用腾讯 AI 编程](https://ymtuan.live/blog/workbuddy-free-credits) · 来源: [WorkBuddy 邀约活动](https://www.codebuddy.cn/events/invite/) · 核验: 2026-11-21
-- [2026 黑五 AI 优惠汇总：能参加的和对得上条件的都在这](https://ymtuan.live/blog/black-friday-ai-deals) · 来源: [各官方黑五活动页（2026-11-21 核验）](https://open-design.ai/prototypes-black-friday?locale=en&amp;amp;amp;amp;amp;amp;bf=1) · 核验: 2026-11-22
+- [2026 黑五 AI 优惠汇总：能参加的和对得上条件的都在这](https://ymtuan.live/blog/black-friday-ai-deals) · 来源: [各官方黑五活动页（2026-11-21 核验）](https://open-design.ai/prototypes-black-friday?locale=en&amp;amp;amp;amp;amp;amp;amp;amp;amp;bf=1) · 核验: 2026-11-23
 - [已发布原文: tencent-tokenhub-newuser](https://ymtuan.live/blog/tencent-tokenhub-newuser) · 来源: [cloud.tencent.com](https://cloud.tencent.com/document/product/1823/130053) · 核验: 2026-11-21
 - [云知声 U Plan 免费版每周 2500 积分：语音 AI 也能零成本试](https://ymtuan.live/blog/unisound-uplan-free) · 来源: [云知声 U Plan 套餐页](https://maas.unisound.com/token-plan?channel=101&amp;amp;amp;source=1002) · 核验: 2026-11-21
 - [MonkeyCode 注册送 5000 积分：长亭的免费 AI 编程助手](https://ymtuan.live/blog/monkeycode-newuser) · 来源: [MonkeyCode 官方文档](https://github.com/chaitin/MonkeyCode/blob/main/frontend/doc.md) · 核验: 2026-11-21
