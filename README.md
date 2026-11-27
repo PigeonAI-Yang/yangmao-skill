@@ -42,3 +42,10 @@ Install the yangmao-public skill from skills/yangmao-public in https://github.co
   <source media="(prefers-color-scheme: dark)" srcset="assets/brand/lockup-horizontal-dark.png">
   <img src="assets/brand/lockup-horizontal.png" alt="羊毛团官网" width="124">
 </picture></a>
+
+## 羊毛团开源项目
+
+[项目总览与源码入口](https://github.com/PigeonAI-Yang/yangmao-skill/blob/main/OPEN-SOURCE.md) · [羊毛团官网](https://ymtuan.live/)
+
+- 内容工具与 Skills：**免费 AI 额度 Skill** · [X 长文写作 Skill](https://github.com/PigeonAI-Yang/x-article-creator) · [发布助手](https://github.com/PigeonAI-Yang/yangmao-publisher)
+- Magpie 插件：[Codex 图片瘦身](https://github.com/PigeonAI-Yang/yangmao-magpie-image-slim) · [Devin 图片缓存](https://github.com/PigeonAI-Yang/yangmao-magpie-devin-image-history)
